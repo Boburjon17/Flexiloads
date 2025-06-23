@@ -7,10 +7,10 @@ const Navbar = () => {
         <nav>
             <h1>FLEXILOADS</h1>
             <ul>
-                <li>О НАС</li>
-                <li>УСЛУГИ</li>
-                <li>ТАРИФ</li>
-                <li>КОНТАКТ</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Tariffs</li>
+                <li>Contact</li>
                 
             </ul>
         </nav>

@@ -1,0 +1,130 @@
+.header-container{
+max-width: 1200px;
+height: auto;
+margin: 0 auto;
+.header{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header-img{
+        width:45% ;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 30px;
+        }
+    }
+    .header-text{
+        width: 45%;
+        height: 100%;
+        h1{
+            font-size: 68px;
+            font-weight: 500;
+            line-height: 100%;
+        }
+        .icons{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px 0 60px 0;
+            .icon{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background-color: #C3E5FF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i{
+                    color: #0563AB;
+                    font-size: 22px;
+                }
+            }
+        }
+        .header-shipment{
+            width: 100%;
+            height: auto;
+            h2{
+                font-size: 25px;
+                font-weight: 500;
+
+            }
+            .header-shipment-input{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                .input-left{
+                    width: 49%;
+                    height: auto;
+                          input{
+                           width: 100%;
+                           height: auto;
+                           padding: 14px;
+                           outline: none;
+                           border-radius: 18px;
+                           border: 1px solid grey;
+                           margin-bottom:10px ;
+                          }
+                          .type{
+                             width: 100%;
+                           height: auto;
+                           padding: 13px;
+                           outline: none;
+                           border-radius: 18px;
+                           border: 1px solid grey;
+                           select{
+                            width: 100%;
+                            height: 100%;
+                            outline: none;
+                            border: none;
+                            option{
+                                width: 100%;
+                                height: 100%;
+                            }
+                           }
+                          }
+                }
+                .input-right{
+                    width: 49%;
+                    height: auto;
+
+                    input{
+                           width: 100%;
+                           height: auto;
+                           padding: 14px;
+                           outline: none;
+                           border-radius: 18px;
+                           border: 1px solid grey;
+                         
+                          }
+                          input:first-child{
+                            margin-bottom: 12px;
+                          }
+
+                }
+            }
+            button{
+                width: 100%;
+                height: auto;
+                padding: 14px;
+                border-radius: 18px;
+                border: none;
+                background-color: #0563AB;
+                color: #FFFFFF;
+                font-size: 16px;
+                font-weight: 500;
+                margin-top: 25px;
+            }
+        }
+    }
+
+}
+}
+
+
