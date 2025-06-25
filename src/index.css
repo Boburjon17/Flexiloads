@@ -4,8 +4,9 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+   font-family: InterBold;
 }
 @font-face {
-  font-family: InterBold;
+  font-family:InterBold;
   src: url('/fonts/inter/Inter_24pt-Bold.ttf') format('truetype');
 }
